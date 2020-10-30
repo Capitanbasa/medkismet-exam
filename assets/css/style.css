@@ -1,0 +1,195 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+body{
+    font-family: poppins;
+}
+h1{
+    font-size: 72px;
+    font-family: poppinsBold;
+}
+h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+h3{
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+}
+.val-no-padding{
+    padding: 0px;
+}
+.val-red-font{
+    color: #FF5433;   
+}
+.f-semi-bold{
+    font-family: poppinsSemiBold;
+}
+.f-bold{
+    font-family: poppinsBold;
+}
+.bg-green-color{
+    background-color: #d7e591;
+}
+.no-margin{
+    margin: 0px !important;
+}
+/** header **/
+.val-nav-header{
+    background-color: #fbd690;
+    padding-top: 20px;
+}
+.val-nav-header .nav-link{
+    font-size: 16px;
+    color: #000000;
+    margin-right: 30px;
+}
+.cart-icon{
+    content: url('../images/shopping_cart-24px.svg');
+    margin-right: 30px;
+}
+
+/* Natural button*/
+.btn-natural{
+    border-radius: 20px;
+    background: #FF5433;
+    padding: 5px 15px;
+    display: inline-block;
+    height: max-content;
+    color: #fff;
+}
+.btn-cta{
+    font-size: 24px;
+    padding: 10px 50px;
+    margin-top: 50px;
+}
+.view-more{
+    color: #000000;
+    font-size: 16px;
+}
+.read-more{
+    color: #000000;
+    font-size: 16px;
+    display: block;
+}
+
+/* hero */
+.val-stay-pos{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.val-relative{
+    position: relative;
+    
+}
+.hero-container{
+   
+}
+
+/* testimonials */
+.testi-one{
+    position: absolute;
+    top: -200px;
+}
+.testi-two{
+    position: absolute;
+    top: 50px;
+}
+.testi-three{
+    position: absolute;
+    left: -180px;
+    top: 390px;
+}
+
+/* customs */
+.vit-cuz-container{
+    margin-top: -30px;
+}
+#featured-cus-head{
+    position: absolute;
+    left: -20px;
+    top: 130px;
+}
+#vit-wrap-cuz-padding-top{
+    padding-top: 100px;
+}
+#gummy-vit-wrap{
+    position: absolute;
+    bottom: 84px;
+    right: 130px;
+}
+#softgel-vit-wrap{
+    position: absolute;
+    bottom: 84px;
+    left: 60px;
+}
+#val-cuz-testi-wrap{
+    height: 490px;
+}
+
+/* carousel */
+.carousel-control-next-icon {
+    background-image: url('../images/arrow_drop_down_circle-24px.svg');
+}
+.carousel-control-prev-icon {
+    background-image: url('../images/arrow_drop_down_circle-1.svg');
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+#cus-nav-carousel{
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.box-wrap{
+    background-color: #fff;
+    border-radius: 45px;
+    position: relative;
+    padding: 15px 10px;
+    overflow: visible;
+}
+.box-wrap img{
+    position: relative;
+    margin-top: -100px;
+}
+.blog-title{
+    font-size: 24px;
+    padding: 10px 35px;
+}
+.carousel-item .row{
+    padding-top: 100px;
+}
+
+.footer-wrap{
+    background-color: #f0785f;
+}
+.footer-link{
+    font-size: 16px;
+    color: #fff;
+}
+.q-links{
+    font-size: 16px;
+    color: #fff;
+}
+
+.border-line-white{
+    border: 2px white solid;
+    margin: 0 5px;;
+}
